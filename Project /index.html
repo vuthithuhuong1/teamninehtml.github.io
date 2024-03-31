@@ -14,18 +14,19 @@
       <li><a href="jobs.html">Danh sách việc làm</a></li>
       <li><a href="contact.html">Thông tin liên hệ</a></li>
       <li><a href="#">Hồ sơ người dùng</a></li>
-      <li><a href="#"> Tìm kiếm</a></li>
+      <li><a href="#">  
+        <div class="apply-now">
+        <div class="container">
+            <form action="#">
+                <input type="text" placeholder="Vị trí ứng tuyển">
+                <button type="submit">Tìm kiếm</button>
+            </form>
+        </div>
+        </div>
+    </a></li>
     </ul>
   </nav>
-  <div class="apply-now">
-    <div class="container">
-        <h2>Vị trí ứng tuyển</h2>
-        <form action="#">
-            <input type="text" placeholder="Vị trí ứng tuyển">
-            <button type="submit">Tìm kiếm</button>
-        </form>
-    </div>
-</div>
+ 
 <div class="container">
     Chúng tôi là Teamnine chuyên cập nhật những công việc mới nhất về những công ty lớn!   
     <!-- Nội dung trang chủ -->
@@ -66,28 +67,24 @@ nav {
 }
 
 .menu li a:hover {
-  background-color: #555;
+  background-color: #000000;
+  margin-top: 2px;
 }
 .apply-now {
-    background-color: #f4f4f4;
-    padding: 20px 0;
+    background-color: #000000;
+    padding: 0 0;
     text-align: center;
 }
-
-.apply-now h2 {
-    margin-bottom: 10px;
-}
-
 .apply-now input[type="text"] {
-    padding: 8px;
+    padding: 4px;
     width: 200px;
     border: 1px solid #ccc;
 }
 
 .apply-now button {
-    padding: 8px 20px;
+    padding: 5px 15px;
     border: none;
-    background-color: #333;
+    background-color: #6b6b6b;
     color: #fff;
     cursor: pointer;
 }
