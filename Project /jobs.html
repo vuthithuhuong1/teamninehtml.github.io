@@ -9,41 +9,54 @@
 <body>
 <h1>Teamnine.Jobs</h1>
 <nav>
-    <ul class="menu">
-      <li><a href="#">Trang chủ</a></li>
-      <li><a href="#">Danh sách việc làm</a></li>
-      <li><a href="contact.html">Thông tin liên hệ</a></li>
-      <li><a href="#">Hồ sơ người dùng</a></li>
-      <li><a href="#"> Tìm kiếm</a></li>
-    </ul>
-  </nav>
+  <ul class="menu">
+    <li><a href="index.html">Trang chủ</a></li>
+    <li><a href="jobs.html">Danh sách việc làm</a></li>
+    <li><a href="contact.html">Thông tin liên hệ</a></li>
+    <li><a href="#">Hồ sơ người dùng</a></li>
+    <li><a href="#">  
+      <div class="apply-now">
+      <div class="container">
+          <form action="#">
+              <input type="text" placeholder="Vị trí ứng tuyển">
+              <button type="submit">Tìm kiếm</button>
+          </form>
+      </div>
+      </div>
+  </a></li>
+  </ul>
+</nav>
    <strong style="font-size: 0.75cm; margin-left: 8cm;">Tìm việc làm nhanh 24h, việc làm mới nhất trên toàn quốc </strong>
 <ul class="job-list">
   <li class="job-item">
+    <img src="https://internetvietnam.net/wp-content/uploads/2019/08/logo-fpt.jpg" alt="Công ty cổ phần FPT" class="job-image">
+    <p style="text-align: center;bottom: auto;"><strong>Công ty Cổ phần FPT</strong> </p>
     <a href="chi-tiet-vi-tri-1.html">
-      <img src="https://internetvietnam.net/wp-content/uploads/2019/08/logo-fpt.jpg" alt="Nhân viên Kinh doanh" class="job-image">
-      <span class="job-title">Ứng tuyển ngay</span>
+      <span class="job-title">Chi tiết việc làm</span>
     </a>
   </li>
   <li class="job-item">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNk5Jxd-7TJXiQQH_CtbLgeHiGgxI6aVaWZfZhd5gtdoKDb-lkqXohRLEvsA9mAvf_LVERIPQ4MAANJw_jUdaTgHV3Gvcfhkb-LIL31aKjMgBm_gIGdAS9n4OKMegDmOMYPfQeUVwa5CdmVhUtQHf1cjBGBvfHfFO2MZFoqKzo-0yKJIUYsICQWOm3au_6/w400-h400/SPX%20Express%20[bagilogo.com].png">
+    <p style="text-align: center;bottom: auto;"><strong>Công ty TNHH SPX EXPRESS</strong> </p>
     <a href="chi-tiet-vi-tri-2.html">
-      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNk5Jxd-7TJXiQQH_CtbLgeHiGgxI6aVaWZfZhd5gtdoKDb-lkqXohRLEvsA9mAvf_LVERIPQ4MAANJw_jUdaTgHV3Gvcfhkb-LIL31aKjMgBm_gIGdAS9n4OKMegDmOMYPfQeUVwa5CdmVhUtQHf1cjBGBvfHfFO2MZFoqKzo-0yKJIUYsICQWOm3au_6/w400-h400/SPX%20Express%20[bagilogo.com].png">
-      <span class="job-title">Ứng tuyển ngay</span>
+      <span class="job-title">Chi tiết việc làm </span>
     </a>
     <style>
         img {width: 97%;}
     </style>
   </li>
   <li class="job-item">
+    <img src="https://d1kndcit1zrj97.cloudfront.net/uploads/logo_SEO_2ae7d33246.jpg" alt="Kỹ sư Phần mềm" class="job-image">
+    <p style="text-align: center;bottom: auto;"><strong>NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN KỸ THƯƠNG VIỆT NAM</strong> </p>
     <a href="chi-tiet-vi-tri-3.html">
-      <img src="https://d1kndcit1zrj97.cloudfront.net/uploads/logo_SEO_2ae7d33246.jpg" alt="Kỹ sư Phần mềm" class="job-image">
-      <span class="job-title">Ứng tuyển ngay</span>
+      <span class="job-title">Chi tiết việc làm</span>
     </a>
   </li>
   <li class="job-item">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.v_6ZYsiSkGcFZlrjUte7ugHaHU&pid=Api&P=0&h=220" alt="Nhân viên Tài chính" class="job-image">
+    <p style="text-align: center;bottom: auto;"><strong>CÔNG TY CỔ PHẦN CÔNG NGHỆ KIOTVIET</strong> </p>
     <a href="chi-tiet-vi-tri-4.html">
-      <img src="https://tse2.mm.bing.net/th?id=OIP.IlKj7wJGHsNS_RhQJl6kjQAAAA&pid=Api&P=0&h=220" alt="Nhân viên Tài chính" class="job-image">
-      <span class="job-title">Ứng tuyển ngay</span>
+      <span class="job-title">Chi tiết việc làm</span>
     </a>
   </li>
 </ul>
@@ -91,9 +104,27 @@ nav {
 }
 
 .menu li a:hover {
-  background-color: #555;
+  background-color: #000000;
+  margin-top: 2px;
+}
+.apply-now {
+    background-color: #000000;
+    padding: 0 0;
+    text-align: center;
+}
+.apply-now input[type="text"] {
+    padding: 4px;
+    width: 200px;
+    border: 1px solid #ccc;
 }
 
+.apply-now button {
+    padding: 5px 15px;
+    border: none;
+    background-color: #6b6b6b;
+    color: #fff;
+    cursor: pointer;
+}
 .job-list {
   list-style-type: none;
   padding: 0;
@@ -123,6 +154,7 @@ nav {
 }
 
 .job-title:hover {
-  color: #007bff;
+  color: #000000;
+  bottom: auto;
 }
 </style>
