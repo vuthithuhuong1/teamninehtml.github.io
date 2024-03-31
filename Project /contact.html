@@ -9,15 +9,24 @@
 </head>
 <body>
     <h1>Teamnine.Jobs</h1>
-<nav>
-    <ul class="menu">
-      <li><a href="index.html">Trang chủ</a></li>
-      <li><a href="jobs.html">Danh sách việc làm</a></li>
-      <li><a href="contact.html">Thông tin liên hệ</a></li>
-      <li><a href="#">Hồ sơ người dùng</a></li>
-      <li><a href="#"> Tìm kiếm</a></li>
-    </ul>
-</nav>
+    <nav>
+        <ul class="menu">
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="jobs.html">Danh sách việc làm</a></li>
+          <li><a href="contact.html">Thông tin liên hệ</a></li>
+          <li><a href="#">Hồ sơ người dùng</a></li>
+          <li><a href="#">  
+            <div class="apply-now">
+            <div class="container">
+                <form action="#">
+                    <input type="text" placeholder="Vị trí ứng tuyển">
+                    <button type="submit">Tìm kiếm</button>
+                </form>
+            </div>
+            </div>
+        </a></li>
+        </ul>
+      </nav>
     <style>
 .h1 {
   text-align: center;
@@ -51,12 +60,27 @@ nav {
 }
 
 .menu li a:hover {
-  background-color: #555;
+  background-color: #000000;
+  margin-top: 2px;
 }
-.contact {
-        padding: 130px 0;
-    }
-    
+.apply-now {
+    background-color: #000000;
+    padding: 0 0;
+    text-align: center;
+}
+.apply-now input[type="text"] {
+    padding: 4px;
+    width: 200px;
+    border: 1px solid #ccc;
+}
+
+.apply-now button {
+    padding: 5px 15px;
+    border: none;
+    background-color: #6b6b6b;
+    color: #fff;
+    cursor: pointer;
+}
 .contact .heading h2 {
         font-size: 30px;
         font-weight: 700;
@@ -91,7 +115,7 @@ nav {
         padding: 10px;
         border-radius: 10px;
         font-size: 15px;
-        background: #ff9100;
+        background: #000000;
         color: #ffffff;
     }
     
@@ -115,7 +139,7 @@ nav {
         font-size: 30px;
         padding: 0;
         margin: 0;
-        color: #02434b;
+        color: #000000;
         margin-right: 20px;
         text-align: center;
         width: 20px;
