@@ -43,7 +43,7 @@
             <li>Ưu tiên các ứng viên có kinh nghiệm trong các công ty kinh doanh điện tử, phần mềm, CNTT hoặc các ngành bán lẻ.</li>
         </section>
         <footer id="contact">
-            <h3>Ứng tuyển ngay</h3>
+            <h3><a href="apply.html" >Ứng tuyển ngay</a></h3>
             <p>Hoặc liên hệ để biết thêm thông tin và nộp đơn, vui lòng gửi email đến <a href="mailto:hr@abctech.com">hr@abctech.com</a>.</p>
         </footer>
     </div>
@@ -63,11 +63,8 @@
             <li>Bằng cấp: Tốt nghiệp TRUNG CẤP trở lên.</li>
             <li>Sẵn sàng cho công tác đi thị trường tiếp cận/tư vấn khách hàng.</li>
         </section>
-        
-
-          
         <footer id="contact">
-            <h3>Ứng tuyển ngay</h3>
+            <h3><a href="apply.html" >Ứng tuyển ngay</a></h3>
             <p>Hoặc liên hệ để biết thêm thông tin và nộp đơn, vui lòng gửi email đến <a href="mailto:hr@abctech.com">hr@abctech.com</a>.</p>
         </footer>
     </div>
