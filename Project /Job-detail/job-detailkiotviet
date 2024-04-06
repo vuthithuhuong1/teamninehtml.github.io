@@ -1,1 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin công việc</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Liên kết với file CSS bên ngoài -->
+</head>
+<h1>Teamnine.Jobs</h1>
+<nav>
+  <ul class="menu">
+    <li><a href="index.html">Trang chủ</a></li>
+    <li><a href="jobs.html">Danh sách việc làm</a></li>
+    <li><a href="contact.html">Thông tin liên hệ</a></li>
+    <li><a href="#">Hồ sơ người dùng</a></li>
+    <li><a href="#">  
+      <div class="apply-now">
+      <div class="containers">
+          <form action="#">
+              <input type="text" placeholder="Vị trí ứng tuyển">
+              <button type="submit">Tìm kiếm</button>
+          </form>
+      </div>
+      </div>
+  </a></li>
+  </ul>
+</nav>
+<body>
+    <div class="container">
+        <header>
+            <h2>Tuyển dụng: Nhân viên dịch vụ khách hàng phần mềm</h2>
+        </header>
+        <section id="job-description">
+            <h3>Mô tả công việc</h3>
+            <li>Tiếp nhận cuộc gọi đến tổng đài và các kênh dịch vụ khách hàng, ghi nhận và xử lý yêu cầu từ khách hàng.</li>
+            <li>Cung cấp thông tin, giải đáp thắc mắc và hướng dẫn khách hàng về tính năng sản phẩm & cách sử dụng sản phẩm.</li>
+            <li>Tổng hợp thông tin phản ánh từ khách hàng, xây dựng cơ sở dữ liệu về các vấn đề, giải pháp thực tế tiếp nhận từ khách hàng.</li>
+            <li>Quản lý/ thực hiện tương tác/ chăm sóc khách hàng thúc đẩy giao dịch.</li>
+        <section id="job-requirements">
+            <h3>Yêu cầu công việc</h3>
+            <li>Tốt nghiệp Trung cấp trở lên.</li>
+            <li>Có kinh nghiệm Chăm sóc khách hàng ít nhất 6 tháng.</li>
+            <li>Ưu tiên các ứng viên có kinh nghiệm trong các công ty kinh doanh điện tử, phần mềm, CNTT hoặc các ngành bán lẻ.</li>
+        </section>
+        <footer id="contact">
+            <h3>Ứng tuyển ngay</h3>
+            <p>Hoặc liên hệ để biết thêm thông tin và nộp đơn, vui lòng gửi email đến <a href="mailto:hr@abctech.com">hr@abctech.com</a>.</p>
+        </footer>
+    </div>
+    <div class="container">
+        <header>
+    <h2>Tuyển dụng: Chuyên viên kinh doanh thị trường(Ngành Công Nghệ)</h2>
+        </header>
+        <section id="job-description">
+            <h3>Mô tả công việc</h3>
+            <li>Chủ động tìm kiếm khách hàng mới kinh doanh trong các lĩnh vực bán lẻ (retail), nhà hàng quán ăn (FnB), spa, thẩm mỹ viện, hotel,... (SMEs). Công ty không hỗ trợ data khách hàng.</li>
+            <li>Tư vấn gói giải pháp phần mềm phù hợp với nhu cầu kinh doanh của khách hàng.</li>
+<li>Xây dựng và mở rộng các mối quan hệ với khách hàng để có thêm cơ hội bán hàng mới.</li>
+        </section>
+        <section id="job-requirements">
+            <h3>Yêu cầu công việc</h3>
+            <li>Có laptop cá nhân và phương tiện đi lại (bắt buộc).</li>
+            <li>Bằng cấp: Tốt nghiệp TRUNG CẤP trở lên.</li>
+            <li>Sẵn sàng cho công tác đi thị trường tiếp cận/tư vấn khách hàng.</li>
+        </section>
+        
 
+          
+        <footer id="contact">
+            <h3>Ứng tuyển ngay</h3>
+            <p>Hoặc liên hệ để biết thêm thông tin và nộp đơn, vui lòng gửi email đến <a href="mailto:hr@abctech.com">hr@abctech.com</a>.</p>
+        </footer>
+    </div>
+</body>
+</html>
+<style>
+    /* CSS để tạo giao diện đơn giản */
+    h1 {
+  text-align: center;
+  margin-right: 20cm;
+  margin-top: 20px;
+}
+nav {
+  background-color: #000000;
+}
+
+.menu {
+  list-style-type: none;
+  margin-left: 5cm;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 5;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 20px;
+  display: block;
+}
+
+.menu li a:hover {
+  background-color: #000000;
+  margin-top: 2px;
+}
+.apply-now {
+    background-color: #000000;
+    padding: 0 0;
+    text-align: center;
+}
+.apply-now input[type="text"] {
+    padding: 4px;
+    width: 200px;
+    border: 1px solid #ccc;
+}
+
+.apply-now button {
+    padding: 5px 15px;
+    border: none;
+    background-color: #6b6b6b;
+    color: #fff;
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+    margin-bottom: 20px;
+}
+h1 {
+    color: #333;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+section {
+    margin-bottom: 20px;
+}
+h2 {
+    color: #333;
+}
+footer {
+    margin-top: 20px;
+}
+</style>
